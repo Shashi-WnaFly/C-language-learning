@@ -3,11 +3,11 @@
 int swap(int *aa, int *bb);
 
 int main(){
-    int a = 5, b = 6;
-    int *ptra = &a, *ptrb = &b;
-    printf("The value before swap of a and b is : %d and %d\n", a, b);
+    int f = 5, b = 6;
+    int *ptra = &f, *ptrb = &b;
+    printf("The value before swap of a and b is : %d and %d\n", f, b);
     swap(ptra, ptrb);
-    printf("The value after swap of a and b is : %d and %d\n", a, b);
+    printf("The value after swap of a and b is : %d and %d\n", f, b);
 
     return 0;
 }
